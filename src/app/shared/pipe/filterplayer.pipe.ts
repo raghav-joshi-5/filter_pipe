@@ -1,6 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { Iplayer } from '../module/player';
-// import { Iplayer } from '../module/player';
 
 @Pipe({
   name: 'filterplayer',
