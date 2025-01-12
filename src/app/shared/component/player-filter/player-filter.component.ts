@@ -14,6 +14,8 @@ export class PlayerFilterComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
-  searchVal!: string;
+  searchVal: string = '';
+  selectedKey: string = 'name';
+  searchedKey: any;
   playerArray: Array<Iplayer> = playerArr;
 }
